@@ -5,21 +5,13 @@
 
     <modelVersion>4.0.0</modelVersion>
 
-    <modules>
-        <module>archetype-domain</module>
-        <module>archetype-module</module>
-        <module>archetype-webapp</module>
-        <module>archetype-toolkit</module>
-        <module>archetype-base</module>
-    </modules>
-
     <parent>
+        <artifactId>archetype</artifactId>
         <groupId>codehall.aoplatform</groupId>
-        <artifactId>parent</artifactId>
         <version>1.0.0-Alpha-1-SNAPSHOT</version>
     </parent>
 
-    <artifactId>archetype</artifactId>
-    <packaging>pom</packaging>
+    <groupId>codehall.aoplatform.archetype</groupId>
+    <artifactId>archetype-base</artifactId>
 
 </project>
