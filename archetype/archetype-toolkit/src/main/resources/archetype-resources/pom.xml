@@ -5,12 +5,12 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>${group-name}.${project-name}</groupId>
+        <groupId>${parentGroupName}.${parentPlatformName}</groupId>
         <artifactId>toolkit</artifactId>
-        <version>${parent-version}</version>
+        <version>${parentVersion}</version>
     </parent>
 
-    <groupId>${group-name}.${project-name}.toolkit</groupId>
+    <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
 

@@ -5,15 +5,14 @@
                       name="module">
 
     <requiredProperties>
-        <requiredProperty key="group-name"/>
-        <requiredProperty key="project-name"/>
-        <requiredProperty key="parent-version">
+        <requiredProperty key="parentGroupName"/>
+        <requiredProperty key="parentPlatformName"/>
+        <requiredProperty key="parentVersion">
             <defaultValue>1.0.0-Alpha-1-SNAPSHOT</defaultValue>
         </requiredProperty>
         <requiredProperty key="groupId">
-            <defaultValue>${group-name}.${project-name}.domain</defaultValue>
+            <defaultValue>${parentGroupName}.${parentPlatformName}.domain</defaultValue>
         </requiredProperty>
-        <requiredProperty key="artifactId"/>
         <requiredProperty key="version">
             <defaultValue>1.0.0-Alpha-1-SNAPSHOT</defaultValue>
         </requiredProperty>
@@ -28,12 +27,6 @@
             <includes>
                 <include>README.md</include>
                 <include>**/*.xml</include>
-            </includes>
-        </fileSet>
-        <fileSet encoding="UTF-8">
-            <directory></directory>
-            <includes>
-                <include>.gitignore</include>
             </includes>
         </fileSet>
     </fileSets>

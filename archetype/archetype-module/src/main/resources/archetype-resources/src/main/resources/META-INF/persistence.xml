@@ -6,7 +6,7 @@
         http://java.sun.com/xml/ns/persistence/persistence_2_0.xsd">
 
     <persistence-unit name="module.${artifactId}-pu">
-        <jta-data-source>java:jboss/${project-name}DS</jta-data-source>
+        <jta-data-source>java:jboss/${parentPlatformName}DS</jta-data-source>
         <properties>
             <property name="hibernate.dialect" value="org.hibernate.dialect.PostgreSQLDialect"/>
             <property name="hibernate.hbm2ddl.auto" value="create-drop"/>

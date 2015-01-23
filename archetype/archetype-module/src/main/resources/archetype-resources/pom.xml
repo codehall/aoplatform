@@ -5,14 +5,13 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>${group-name}.${project-name}</groupId>
+        <groupId>${parentGroupName}.${parentPlatformName}</groupId>
         <artifactId>module</artifactId>
-        <version>${parent-version}</version>
+        <version>${parentVersion}</version>
     </parent>
 
-    <groupId>${group-name}.${project-name}.module</groupId>
+    <groupId>${groupId}</groupId>
     <artifactId>${artifactId}</artifactId>
     <version>${version}</version>
-    <packaging>ejb</packaging>
 
 </project>
