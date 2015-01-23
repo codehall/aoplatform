@@ -75,13 +75,6 @@
                 <scope>import</scope>
                 <type>pom</type>
             </dependency>
-            <dependency>
-                <groupId>aoplatform</groupId>
-                <artifactId>bill-of-materials</artifactId>
-                <version>1.0.0-Alpha-1-SNAPSHOT</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
 
         </dependencies>
     </dependencyManagement>

@@ -16,14 +16,6 @@
 
     <dependencies>
 
-        <!-- Compile scope -->
-
-        <dependency>
-            <!-- Must be removed! -->
-            <groupId>aoplatform.toolkit</groupId>
-            <artifactId>dataaccess</artifactId>
-        </dependency>
-
         <!-- Provided scope -->
 
         <dependency>
@@ -54,8 +46,8 @@
                             <createDependencyReducedPom>false</createDependencyReducedPom>
                             <artifactSet>
                                 <includes>
-                                    <include>aoplatform.domain:*</include>
-                                    <include>aoplatform.toolkit:*</include>
+                                    <include>*.domain:*</include>
+                                    <include>*.toolkit:*</include>
                                 </includes>
                             </artifactSet>
                         </configuration>
