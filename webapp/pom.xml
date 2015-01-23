@@ -9,6 +9,7 @@
         <groupId>codehall.aoplatform</groupId>
         <artifactId>parent</artifactId>
         <version>1.0.0-Alpha-1-SNAPSHOT</version>
+        <relativePath>../parent/pom.xml</relativePath>
     </parent>
 
     <artifactId>webapp</artifactId>
