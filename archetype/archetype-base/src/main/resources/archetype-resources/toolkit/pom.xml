@@ -13,6 +13,23 @@
 
     <groupId>${groupId}</groupId>
     <artifactId>toolkit</artifactId>
+    <version>${version}</version>
     <packaging>pom</packaging>
+
+    <dependencyManagement>
+        <dependencies>
+
+            <!-- Bill of materials -->
+
+            <dependency>
+                <groupId>${groupId}</groupId>
+                <artifactId>bill-of-materials</artifactId>
+                <version>${version}</version>
+                <scope>import</scope>
+                <type>pom</type>
+            </dependency>
+
+        </dependencies>
+    </dependencyManagement>
 
 </project>

@@ -7,29 +7,13 @@
 
     <parent>
         <groupId>codehall.aoplatform</groupId>
-        <artifactId>domain</artifactId>
+        <artifactId>bill-of-materials</artifactId>
         <version>1.0.0-Alpha-1-SNAPSHOT</version>
     </parent>
 
     <groupId>${groupId}</groupId>
-    <artifactId>domain</artifactId>
+    <artifactId>bill-of-materials</artifactId>
     <version>${version}</version>
     <packaging>pom</packaging>
-
-    <dependencyManagement>
-        <dependencies>
-
-            <!-- Bill of materials -->
-
-            <dependency>
-                <groupId>${groupId}</groupId>
-                <artifactId>bill-of-materials</artifactId>
-                <version>${version}</version>
-                <scope>import</scope>
-                <type>pom</type>
-            </dependency>
-
-        </dependencies>
-    </dependencyManagement>
 
 </project>
