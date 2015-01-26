@@ -10,7 +10,6 @@
         <module>archetype-module</module>
         <module>archetype-webapp</module>
         <module>archetype-toolkit</module>
-        <module>archetype-base</module>
     </modules>
 
     <parent>

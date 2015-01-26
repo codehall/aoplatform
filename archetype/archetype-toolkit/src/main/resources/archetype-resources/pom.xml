@@ -5,9 +5,9 @@
     <modelVersion>4.0.0</modelVersion>
 
     <parent>
-        <groupId>${parentGroupName}.${parentPlatformName}</groupId>
+        <groupId>codehall.aoplatform</groupId>
         <artifactId>toolkit</artifactId>
-        <version>${parentVersion}</version>
+        <version>1.0.0-Alpha-1-SNAPSHOT</version>
     </parent>
 
     <groupId>${groupId}</groupId>
