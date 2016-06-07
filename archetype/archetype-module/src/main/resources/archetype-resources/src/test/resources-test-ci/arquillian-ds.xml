@@ -8,11 +8,11 @@
     <datasource jndi-name="java:jboss/arquillianDS" pool-name="arquillianDS"
                 enabled="true" use-java-context="true">
 
-        <connection-url>jdbc:postgresql://localhost:5432/arquillian</connection-url>
-        <driver>jdbcdriver.war_org.postgresql.Driver_9_3</driver>
+        <connection-url>jdbc:postgresql://dbms-ci:5432/arquillian</connection-url>
+        <driver>postgresql-jdbc.jar</driver>
         <security>
             <user-name>postgres</user-name>
-            <password>82354</password>
+            <password>postgres</password>
         </security>
     </datasource>
 

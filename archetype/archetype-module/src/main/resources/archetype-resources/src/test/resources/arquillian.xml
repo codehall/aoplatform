@@ -12,17 +12,16 @@
     <container qualifier="wildfly-managed">
         <configuration>
             <property name="outputToConsole">true</property>
-            <property name="jbossHome">target/wildfly-8.2.0.Final</property>
-            <property name="modulePath">target/wildfly-8.2.0.Final/modules</property>
-            <property name="managementPort">9990</property>
-            <!-- To change all ports this server is listening to, enable the following property. -->
-            <!--<property name="javaVmArguments">-Djboss.socket.binding.port-offset=100</property>-->
+            <property name="jbossHome">target/wildfly-10.0.0.Final</property>
+            <property name="modulePath">target/wildfly-10.0.0.Final/modules</property>
+            <property name="javaVmArguments">-Djboss.socket.binding.port-offset=9</property>
         </configuration>
     </container>
 
     <container qualifier="wildfly-remote">
         <configuration>
-            <property name="managementPort">9990</property>
+            <property name="username">admin</property>
+            <property name="password">admin</property>
         </configuration>
     </container>
 
