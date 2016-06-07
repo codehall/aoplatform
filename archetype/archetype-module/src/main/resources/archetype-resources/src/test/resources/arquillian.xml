@@ -13,7 +13,6 @@
         <configuration>
             <property name="outputToConsole">true</property>
             <property name="jbossHome">target/wildfly-10.0.0.Final</property>
-            <property name="modulePath">target/wildfly-10.0.0.Final/modules</property>
             <property name="javaVmArguments">-Djboss.socket.binding.port-offset=9</property>
         </configuration>
     </container>
